@@ -1,0 +1,13 @@
+Workshop 1 provided me with a comprehensive learning experience in C++ programming, encompassing several essential concepts such as linkage, storage duration, namespaces, header guards, and interactions with the operating system.
+
+The workshop was structured into two parts: Part 1 and Part 2.
+
+In Part 1, my task was to understand and complete existing code. This involved implementing the main function to accept and format command-line arguments as specified. Additionally, I worked on the RideRequest module, which introduced fundamental concepts like global variables, class design, and file I/O. I was responsible for implementing the read() and display() functions within the RideRequest class to read ride information from files and present it in a structured manner.
+
+Part 2 was the focal point of the workshop. Here, I enhanced the RideRequest class to accommodate ride descriptions of variable lengths using C-style null-terminated strings. I ensured efficient memory allocation while avoiding memory leaks. This required the utilization of functions like std::getline, std::string::c_str, and std::string::length.
+
+In summary, Workshop 1 significantly enriched my understanding of C++ programming, emphasizing proper design principles, encapsulation, adherence to coding standards, and thorough testing and debugging practices to guarantee code correctness and reliability.
+
+
+
+

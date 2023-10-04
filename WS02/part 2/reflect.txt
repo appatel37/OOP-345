@@ -1,0 +1,13 @@
+Reflection
+
+In completing this workshop, I acquired valuable insights into several fundamental aspects of C++ programming. Firstly, I grasped the significance of incorporating copy and move semantics when working with dynamic memory allocation within classes. The noticeable disparity in execution times between copy and move operations underscored the superior efficiency of move operations in transferring resource ownership as opposed to the resource-intensive nature of copy operations, which entail data duplication.
+
+In the context of the AirportLog class, I successfully implemented methods to extract data from a CSV file and populate a dynamic array containing Airport objects. While this approach entailed reading the file twice—once for counting entries and another for actual data population—it ensured an efficient allocation of memory without any superfluous overhead. However, I also contemplated potential optimization strategies, such as caching data after the initial read if the file's contents are expected to remain constant during program execution.
+
+In the Timer module, I effectively utilized std::chrono's steady_clock to accurately measure the execution time of various operations. Furthermore, I conducted research to gain a thorough understanding of the distinctions between steady_clock and system_clock. Steady_clock provides a consistent and monotonic time reference that remains unaffected by system time adjustments, making it ideal for precise measurement of time intervals. Conversely, the system_clock may be susceptible to changes in the system's time settings and is better suited for tasks involving real-world time.
+
+Overall, this workshop deepened my comprehension of resource management in C++ and underscored the critical role of selecting the appropriate clock type to ensure accurate timing. Additionally, it reinforced the importance of implementing efficient move semantics within classes that manage resource ownership, ultimately enhancing my proficiency in C++ programming.
+
+
+
+
