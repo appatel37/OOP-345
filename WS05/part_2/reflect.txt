@@ -1,0 +1,11 @@
+Reflect
+
+Completing this workshop enhanced my comprehension of functors and lambda expressions. I now understand that functors are essentially objects with a function call operator, allowing them to function as callable objects, while lambda expressions are concise ways to create anonymous functions, particularly suitable for short, one-time-use tasks.
+
+The decision to use either a functor or a lambda expression hinges on the complexity and reusability of the operation. Functors are preferred for intricate and reusable operations, whereas lambda expressions excel in handling brief, situational tasks.
+
+Regarding the constructor for SpellChecker, which currently throws exceptions when the input file is missing, an alternative approach would involve using error codes or return values to signal errors, offering a more predictable and manageable solution.
+
+The Movie and Book classes share a significant amount of redundant code for loading data from files. To eliminate this redundancy, I could introduce a base class containing the common logic and have Movie and Book inherit from it, thus streamlining the design and ensuring more efficient maintenance.
+
+As for the default constructor in Movie and Book, it's essentially unnecessary, given that objects are always initialized with data from files. Removing the default constructor would ensure that objects are consistently in a valid state, simplifying the code and making it more robust.
