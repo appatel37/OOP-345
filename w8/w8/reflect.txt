@@ -1,0 +1,7 @@
+In completing this workshop, I've gained a comprehensive understanding of smart pointer syntax and its advantages over raw pointers. Smart pointers, exemplified by std::unique_ptr and std::shared_ptr, provide automatic memory management, minimizing the risks of memory leaks and dangling pointers. The inclusion of move semantics enhances code efficiency, ensuring the proper transfer of object ownership. Contrasting raw pointers, smart pointers enhance code safety and readability, eliminating manual memory management complexities. The difference is vividly illustrated in the workshop's tasks, particularly in overloading the += operator in the DataBase module. Analyzing the excessive object duplications during profile exclusion, I recognized the importance of incorporating move semantics to optimize code execution and diminish unnecessary copies. My reflection underscores the significance of embracing smart pointers for memory management, advocating for cleaner, safer, and more efficient C++ code.
+
+
+
+
+
+

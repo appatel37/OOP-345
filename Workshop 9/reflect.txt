@@ -1,0 +1,9 @@
+In completing this workshop, I gained a comprehensive understanding of multi-threading in C++ and its practical applications. The task involved processing partitioned data using multiple threads to efficiently compute average and variance values from a binary file. The use of binary files proved beneficial, as it allowed for more compact storage and faster read/write operations. Binding functions to their arguments showcased its utility in streamlining code and facilitating the creation of threads.
+
+Working with multiple threads presented challenges in synchronization and coordination, and I successfully implemented a solution that avoided race conditions and memory leaks. The experiments with different sleep durations in the thread demonstrated the impact on computation times, emphasizing the importance of balancing performance with resource utilization. Overall, this workshop deepened my knowledge of concurrent programming concepts, including the significance of binary file handling, function binding, and the advantages and challenges associated with multi-threading.
+
+
+
+
+
+
